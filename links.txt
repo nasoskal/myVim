@@ -1,0 +1,6 @@
+NERDTree - https://github.com/preservim/nerdtree
+vim-colorschemes - https://github.com/flazz/vim-colorschemes 
+Ligthline - https://github.com/itchyny/lightline.vim
+EasyMotion - https://github.com/easymotion/vim-easymotion
+Pathogen - https://github.com/tpope/vim-pathogen
+
