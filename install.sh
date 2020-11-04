@@ -11,4 +11,4 @@ git clone https://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/colorschem
 
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 
-cp _vimrc ../.vimrc
+cp .vimrc ~/.vimrc
