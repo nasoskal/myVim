@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install curl
+sudo apt install curl && sudo apt install ccls
 sudo curl -sL install-node.now.sh/lts | sudo bash
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
