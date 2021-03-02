@@ -3,4 +3,6 @@ vim-colorschemes - https://github.com/flazz/vim-colorschemes
 Ligthline - https://github.com/itchyny/lightline.vim
 EasyMotion - https://github.com/easymotion/vim-easymotion
 Pathogen - https://github.com/tpope/vim-pathogen
+Conquer of Completion - https://github.com/neoclide/coc.nvim
+Auto Pairs - https://github.com/jiangmiao/auto-pairs
 
