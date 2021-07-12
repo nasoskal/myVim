@@ -13,3 +13,8 @@ vim-surround - https://github.com/tpope/vim-surround
 vim-latex-live-preview - https://github.com/xuhdev/vim-latex-live-preview
 emmet - https://github.com/mattn/emmet-vim
 gruvbox-material - https://github.com/sainnhe/gruvbox-material
+
+// Installing node.js and NPM(chocolatey) for windows 10:
+https://www.guru99.com/download-install-node-js.html
+https://chocolatey.org/
+https://nodejs.org/en/download/
