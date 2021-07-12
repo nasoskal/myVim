@@ -6,3 +6,10 @@ Pathogen - https://github.com/tpope/vim-pathogen
 Conquer of Completion - https://github.com/neoclide/coc.nvim
 Auto Pairs - https://github.com/jiangmiao/auto-pairs
 
+bracey - https://github.com/turbio/bracey.vim
+vim-prettier - https://github.com/prettier/vim-prettier
+vim-coloresque - https://github.com/gko/vim-coloresque
+vim-surround - https://github.com/tpope/vim-surround
+vim-latex-live-preview - https://github.com/xuhdev/vim-latex-live-preview
+emmet - https://github.com/mattn/emmet-vim
+gruvbox-material - https://github.com/sainnhe/gruvbox-material

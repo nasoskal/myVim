@@ -9,7 +9,7 @@
 " au BufRead, BufNewFile *.pro set filetype=prolog syntax=prolog
 " set paste
 set nowrap
-"set t_Co=256	" set colors to 256
+set t_Co=256	" set colors to 256
 syntax enable
 let mapleader = "\<Space>"
 
@@ -215,5 +215,32 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
 
-colorscheme molokai
+colorscheme tequila-sunrise
+"colorscheme gruvbox-material
+set termguicolors
 hi Normal guibg=NONE ctermbg=NONE
+
+
+" LaTex
+" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
+filetype plugin on
+
+" IMPORTANT: win32 users will need to have 'shellslash' set so that latex
+" can be called correctly.
+set shellslash
+
+" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+let g:tex_flavor='latex'
+
+" vim-latex-preview settings
+let g:livepreview_previewer = 'evince'
+autocmd Filetype tex setl updatetime=1
+
+" Emmet 
+let g:user_emmet_mode='n' "only enable normal mode functions
+let g:user_emmet_leader_key=','
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
